@@ -14,3 +14,9 @@ One common preprocessing technique is one-hot encoding, which is used to convert
 Let's say we have a categorical variable "Color" with three unique categories: "red," "green," and "blue."
 One-hot encoding transforms this single categorical feature into three binary features: "Is Red," "Is Green," and "Is Blue."
 If a data point originally had the "red" category, its one-hot encoded representation would be [1, 0, 0]. Similarly, for "green," it would be [0, 1, 0], and for "blue," it would be [0, 0, 1].
+
+# Normalisation
+Normalization is a data preprocessing technique that scales numerical features to a standard range, usually between 0 and 1, making them comparable. 
+
+# How Normalisation works:
+It involves subtracting the minimum value from each value and dividing by the range of the feature.
