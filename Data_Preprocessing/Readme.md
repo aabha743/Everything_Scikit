@@ -1,5 +1,12 @@
 # Data Preprocessing Using  Scikit 
 In this file you will find various preprocessing techniques that You can perform using Scikit learn.<br>Happy Preprocessing!
+
+# Binarisation
+Binarisation in data preprocessing is the technique through which we convert all the values of an array either as 0 or 1.
+
+# How Binarisation works:
+It works by setting up a threshold value within the givem range of numbers within the array. Any number above the threshold valus is converted as 1 and any number below the threshold value is converted to 0.
+
 # One-Hot Encoding
 One common preprocessing technique is one-hot encoding, which is used to convert categorical variables into a numerical format. Categorical variables are those that represent categories or labels, such as "red," "green," "blue" for a color feature or "cat," "dog," "bird" for an animal type feature.
 
