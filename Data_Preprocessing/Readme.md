@@ -20,3 +20,20 @@ Normalization is a data preprocessing technique that scales numerical features t
 
 # How Normalisation works:
 It involves subtracting the minimum value from each value and dividing by the range of the feature.
+
+# Scaling
+Scaling is the process through which we bring the values of an array or feature vectors to be within a particular range. Scaling of feature vectors is important, because the features should not be synthetically large or small.
+
+# How does scaling work:
+MinMax scaling is a data normalization technique used in machine learning to scale numeric features to a specific range, typically between 0 and 1.<br>
+Imagine you have a bunch of numbers that represent different things, like test scores ranging from 0 to 100. MinMax scaling is like squishing those numbers so they all fit between 0 and 1, no matter how big or small they were originally.<br>
+
+Here's how it works:<br>
+
+1.You find the smallest number in your group (let's say it's 60) and call it the minimum.<br>
+2.You find the biggest number in your group (let's say it's 90) and call it the maximum.<br>
+3.Then, for each number in your group (like 75, 80, 85, etc.), you do a little math to make it a new number between 0 and 1.<br>
+For example, if you want to scale the number 75:<br>
+Scaled_75=(75−60)/(90−60)=15/30=0.5<br>
+
+So, the number 75 would become 0.5 after MinMax scaling. This helps make sure all the numbers are easier to compare, no matter what range they started in.
