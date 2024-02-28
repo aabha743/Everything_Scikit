@@ -37,3 +37,9 @@ For example, if you want to scale the number 75:<br>
 Scaled_75=(75−60)/(90−60)=15/30=0.5<br>
 
 So, the number 75 would become 0.5 after MinMax scaling. This helps make sure all the numbers are easier to compare, no matter what range they started in.
+
+# Mean Removal
+This technique is used to eliminate the mean from feature vector so that every feature centered on zero.
+
+# How does Mean Removal Work:
+Mean removal is a process used to center data around zero by subtracting the mean value of a dataset from each data point. This helps in removing any bias or trend from the data, making it easier to compare different datasets or analyze their relationships.
