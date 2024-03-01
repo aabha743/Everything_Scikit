@@ -43,3 +43,8 @@ This technique is used to eliminate the mean from feature vector so that every f
 
 # How does Mean Removal Work:
 Mean removal is a process used to center data around zero by subtracting the mean value of a dataset from each data point. This helps in removing any bias or trend from the data, making it easier to compare different datasets or analyze their relationships.
+# Simple Impute
+
+SimpleImputer is a scikit-learn class used for imputing missing values in datasets. SimpleImputer replaces missing values with the mean, median, or most frequent value of the column.
+# Simple Imputer working
+SimpleImputer computes the chosen statistic (mean, median, etc.) from the non-missing values in each column during the fitting process. It then applies this statistic to impute missing values in the transform step, producing a complete dataset.
