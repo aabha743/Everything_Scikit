@@ -48,3 +48,18 @@ Mean removal is a process used to center data around zero by subtracting the mea
 SimpleImputer is a scikit-learn class used for imputing missing values in datasets. SimpleImputer replaces missing values with the mean, median, or most frequent value of the column.
 # Simple Imputer working
 SimpleImputer computes the chosen statistic (mean, median, etc.) from the non-missing values in each column during the fitting process. It then applies this statistic to impute missing values in the transform step, producing a complete dataset.
+
+# Feature Selection
+SelectKBest is a feature selection technique in scikit-learn used to select the top k features based on their scores with respect to a given criterion. It is helpful in reducing the number of features to those that are most relevant to the target variable, which can improve the performance and efficiency of machine learning models.
+# How to do this
+SelectKBest works by scoring each feature using a specified scoring function and then selecting the top k features with the highest scores. The scoring function depends on the task (classification or regression) and the desired metric (ANOVA F-value, chi-squared, mutual information, etc.).
+
+1. For Classification:
+   - f_classif: Computes the ANOVA F-value between the feature and the target.
+   - chi2: Computes the chi-squared statistic between each non-negative feature and the target.
+
+2. For Regression:
+   - f_regression: Computes the F-value for regression tasks.
+   - mutual_info_regression: Computes mutual information for a continuous target.
+
+After scoring each feature, SelectKBest selects the top k features based on their scores. These selected features can then be used for training machine learning models.
